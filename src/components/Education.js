@@ -1,5 +1,5 @@
 
-import './Project.css';
+import './Education.css';
 
 function Education() {
   return (

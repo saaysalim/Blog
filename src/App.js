@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import Education from './components/Education'
 import Gallery from './components/Gallery'
 import VideoGallery from'./components/VideoGallery'
-import Blog from'./components/Blog'
 import Contact from'./components/Contact'
 import Project from'./components/Project'
 import Logo from './components/logo.png';
@@ -34,7 +33,6 @@ function App() {
             <li><Link to="/Project">Project</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
             <li><Link to="/Gallery">Gallery</Link></li>
-            <li><Link to="/Blog">Blog</Link></li>
             <li><Link to="VideoGallery">VideoGallery</Link></li>
             <li><Link to="Education">Education</Link></li>
           </div>
@@ -55,12 +53,9 @@ function App() {
         <Route path="/Project"element={<Project/>} />
         <Route path="/Contact"element={<Contact/>} />
         <Route path="/Gallery"element={<Gallery/>}/>
-        <Route path="/Blog"element={<Blog/>}/>
         <Route path="/VideoGallery"element={<VideoGallery/>}/>
         <Route path="/Education"element={<Education/>}/>
-
       </Routes>
-
 <div>
          <footer className="footer"> {/* Footer section */}
         <p>&copy; {new Date().getFullYear()} Salim Saay. All Rights Reserved.</p> {/* Dynamic copyright year */}
@@ -69,5 +64,4 @@ function App() {
       </>
   );
 }
-
 export default App;

@@ -1,7 +1,5 @@
 
 import './Project.css';
-import Header from './Header';
-import Layout from './Layout';
 function Project() {
   return (
     <div className="project-container">
@@ -25,5 +23,4 @@ function Project() {
     </div>
   );
 }
-
 export default Project;

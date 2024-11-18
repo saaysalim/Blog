@@ -1,0 +1,64 @@
+/* Container Styling */
+.project-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #f9f9f9; /* Light background for better readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Header Section */
+  .project-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-header h1 {
+    font-size: 2rem;
+    color: #2c3e50; /* Dark Blue for main heading */
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d; /* Subtle gray for subtext */
+  }
+  
+  /* Content Section */
+  .project-content h2 {
+    font-size: 1.5rem;
+    color: #34495e; /* Secondary dark color for section headings */
+    margin-top: 1.5rem;
+  }
+  
+  .project-content p {
+    font-size: 1rem;
+    color: #555; /* Neutral gray for paragraph text */
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+  
+  /* Add spacing between content blocks */
+  .project-content h2 + p {
+    margin-top: 0.5rem;
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-container {
+      padding: 1rem;
+    }
+  
+    .project-header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .project-content h2 {
+      font-size: 1.3rem;
+    }
+  
+    .project-content p {
+      font-size: 0.9rem;
+    }
+  }
+  

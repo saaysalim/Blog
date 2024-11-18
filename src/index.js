@@ -8,7 +8,6 @@ import { Provider } from 'react-redux';
 import { fetchPosts } from './features/posts/postsSlice';
 import { fetchUsers } from './features/users/usersSlice';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Contact from './components/Contact';
 store.dispatch(fetchPosts());
 store.dispatch(fetchUsers());
 

@@ -1,7 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import Layout from './Layout'
-import Header from './Header';
 function Contact() {
   return (
     <div className="contact-container">
