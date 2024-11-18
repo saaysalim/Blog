@@ -1,0 +1,79 @@
+/* General Header Styling */
+.Header {
+  background-color: #333; /* Dark background for the header */
+  color: white; /* White text for contrast */
+  padding: 1rem 2rem; /* Padding around the header */
+  text-align: center; /* Center-align the content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Navigation Bar Styles */
+nav {
+  margin-bottom: 1rem; /* Add space below the navigation */
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Center items vertically */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+/* Logo Styling */
+.navbar-logo {
+  display: flex; /* Flexbox for logo alignment */
+  align-items: center; /* Center items vertically */
+  gap: 1rem; /* Space between the logos */
+}
+
+.logo-container img {
+  width: 50px; /* Fixed size for logo images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Circular image (for profile or avatar) */
+}
+
+/* Navigation Links */
+ul li {
+  margin: 0 1rem; /* Space between links */
+}
+
+ul li a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text for emphasis */
+  font-size: 1rem; /* Font size for the links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+ul li a:hover {
+  color: #ddd; /* Light gray color on hover */
+}
+
+/* Header Title */
+h1 {
+  font-size: 2rem; /* Size for the portfolio title */
+  margin: 1rem 0; /* Space around the title */
+  font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    align-items: center; /* Center-align the links */
+  }
+
+  .logo-container img {
+    width: 40px; /* Smaller logo for smaller screens */
+  }
+
+  ul li {
+    margin: 0.5rem 0; /* Reduce spacing between links */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Reduce title size for smaller screens */
+  }
+}
