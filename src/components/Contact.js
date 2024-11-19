@@ -5,7 +5,7 @@ function Contact() {
     <div className="contact-container">
       <header className="contact-header">
         <h1>Contact Salim Saay</h1>
-        <p>Get in touch with Salim Saay for academic inquiries, research collaborations, or more information.</p>
+        
       </header>
       <div className="contact-content">
         <h2>Email</h2>

@@ -20,12 +20,11 @@ function VideoGallery() {
   function goToPreviousVideo() {
     setIndex((prevIndex) => (prevIndex - 1 + videos.length) % videos.length);
   }
-
   return (
     <div className="video-gallery-container">
       <header className="video-gallery-header">
         <h1>Video Gallery</h1>
-        <p>Explore our collection of videos showcasing various topics and projects.</p>
+        
       </header>
       {/* Display the current video */}
       <video

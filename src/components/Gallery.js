@@ -8,13 +8,13 @@ const ImageGallery: React.FC = () => {// defining a React functional component i
 
   // An array of image URLs for the gallery
   const images = [
+    './Slide7.png',
     './Slide3.png',
     './Background.png',
     './Agile Method.png',
-    './Slide7.png'
+    './SalimSaay.jpg'
     // Add more image URLs as needed
   ];
-
   // Function to go to the next image in the gallery
   const goToNextImage = () => {
     setIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -29,7 +29,6 @@ const ImageGallery: React.FC = () => {// defining a React functional component i
     <div className="gallery-container">
       <header className="gallery-header">
         <h1>Image Gallery</h1>
-        <p>Explore our collection of images showcasing various topics and projects.</p>
       </header>
       {/* Display the current image */}
       <img

@@ -7,7 +7,6 @@ function About() {
     <div className="about-container">
       <header className="about-header">
         <h1>About Salim Saay</h1>
-        <p>Learn more about Salim Saay, his academic background, and his contributions to research and education.</p>
       </header>
       <div className="about-content">
         <h2>About</h2>

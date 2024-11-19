@@ -1,55 +1,85 @@
-/* VideoGallery.css */
-
+/* General Container Styling */
 .video-gallery-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto; /* Center the container */
+  padding: 2rem;
+  max-width: 800px; /* Limit the container width */
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: Arial, sans-serif; /* Clean font */
+  border: 1px solid #dcdcdc; /* Soft border for separation */
+}
+
+/* Header Styling */
+.video-gallery-header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4b0082; /* Indigo background */
+  color: #ffffff; /* White text for contrast */
+  border-radius: 8px;
+}
+
+.video-gallery-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-gallery-header p {
+  font-size: 1.2rem;
+  color: #e0e0e0; /* Subtle gray for text contrast */
+  margin: 0;
+}
+
+/* Video Player Section */
+.video-player {
+  width: 100%; /* Full width for responsiveness */
+  height: 400px; /* Fixed height */
+  margin: 2rem 0; /* Space above and below */
+  background-color: #000; /* Default black background */
+  border-radius: 10px; /* Rounded edges */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center; /* Center align buttons */
+  gap: 1rem; /* Space between buttons */
+  margin-top: 1rem;
+}
+
+.navigation-buttons button {
+  background-color: #333; /* Dark button background */
+  color: #ffffff; /* White text for contrast */
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem; /* Padding for button size */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Smooth corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navigation-buttons button:hover {
+  background-color: #4b0082; /* Indigo hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-gallery-container {
+    padding: 1rem;
   }
-  
-  .video-gallery-header {
-    margin-bottom: 20px;
-  }
-  
+
   .video-gallery-header h1 {
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 2rem; /* Adjust header size */
   }
-  
-  .video-gallery-header p {
-    color: #555;
-    font-size: 1rem;
-  }
-  
+
   .video-player {
-    width: 100%;
-    max-height: 500px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    height: 300px; /* Reduce video height */
   }
-  
-  .video-gallery-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+
+  .navigation-buttons button {
+    padding: 0.5rem 1rem; /* Smaller buttons on smaller screens */
+    font-size: 0.9rem;
   }
-  
-  .video-gallery-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .video-gallery-button:hover {
-    background-color: #555;
-  }
-  
+}

@@ -1,64 +1,70 @@
-/* Container Styling */
+/* General Container Styling */
 .project-container {
-    margin: 2rem auto;
-    padding: 2rem;
-    max-width: 800px;
-    background-color: #f9f9f9; /* Light background for better readability */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 2rem auto; /* Center the container */
+  padding: 2rem; /* Add spacing inside */
+  max-width: 900px; /* Limit the container width */
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 10px; /* Smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+  font-family: 'Arial', sans-serif; /* Clean, readable font */
+  border: 1px solid #dcdcdc; /* Soft border for subtle separation */
+}
+
+/* Header Section */
+.project-header {
+  text-align: center; /* Center the header content */
+  padding: 1rem;
+  background-color: #4b0082; /* Indigo background for emphasis */
+  color: #ffffff; /* White text for contrast */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.project-header h1 {
+  font-size: 2.5rem; /* Large heading */
+  margin-bottom: 0.5rem;
+}
+
+.project-header p {
+  font-size: 1.2rem; /* Subheading font size */
+  margin: 0;
+  color: #e0e0e0; /* Subtle gray for text contrast */
+}
+
+/* Content Section */
+.project-content {
+  margin-top: 2rem;
+}
+
+.project-content h2 {
+  font-size: 1.8rem; /* Section heading size */
+  color: #333333; /* Dark gray for text */
+  border-bottom: 3px solid #ffa500; /* Orange underline */
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  font-size: 1rem; /* Paragraph font size */
+  color: #555555; /* Neutral gray */
+  line-height: 1.6; /* Improved readability */
+  margin-bottom: 1rem; /* Spacing below paragraphs */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-container {
+    padding: 1rem;
   }
-  
-  /* Header Section */
-  .project-header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
+
   .project-header h1 {
-    font-size: 2rem;
-    color: #2c3e50; /* Dark Blue for main heading */
-    margin-bottom: 0.5rem;
+    font-size: 2rem; /* Adjust title size for smaller screens */
   }
-  
-  .project-header p {
-    font-size: 1.2rem;
-    color: #7f8c8d; /* Subtle gray for subtext */
-  }
-  
-  /* Content Section */
+
   .project-content h2 {
-    font-size: 1.5rem;
-    color: #34495e; /* Secondary dark color for section headings */
-    margin-top: 1.5rem;
+    font-size: 1.5rem; /* Adjust section heading size */
   }
-  
+
   .project-content p {
-    font-size: 1rem;
-    color: #555; /* Neutral gray for paragraph text */
-    line-height: 1.6;
-    margin-top: 0.5rem;
+    font-size: 0.9rem; /* Adjust paragraph size */
   }
-  
-  /* Add spacing between content blocks */
-  .project-content h2 + p {
-    margin-top: 0.5rem;
-  }
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .project-container {
-      padding: 1rem;
-    }
-  
-    .project-header h1 {
-      font-size: 1.8rem;
-    }
-  
-    .project-content h2 {
-      font-size: 1.3rem;
-    }
-  
-    .project-content p {
-      font-size: 0.9rem;
-    }
-  }
-  
+}

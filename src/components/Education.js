@@ -3,10 +3,11 @@ import './Education.css';
 
 function Education() {
   return (
+
     <div className="project-container">
       <header className="project-header">
         <h1>Education Background</h1>
-        <p> Computer Science Education.</p>
+        
       </header>
       <div className="project-content">
         <h2>PhD (BC4ECO)</h2>  

@@ -5,7 +5,8 @@ function Project() {
     <div className="project-container">
       <header className="project-header">
         <h1>Research Projects</h1>
-        <p>Explore the cutting-edge projects led by Salim Saay in the fields of Blockchain, Software Architecture, and more.</p>
+       <>
+       </>
       </header>
       <div className="project-content">
         <h2>Blockchain for Sustainability (BC4ECO)</h2>  
