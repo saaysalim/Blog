@@ -1,3 +1,4 @@
+import { HashRouter as Router } from "react-router-dom";
 import PostsList from "./features/posts/PostsList";
 import AddPostForm from "./features/posts/AddPostForm";
 import SinglePostPage from "./features/posts/SinglePostPage";
